@@ -63,7 +63,7 @@ class _MyAppState extends State<MyApp> {
             selectedFontSize: 12,
             unselectedFontSize: 12,
             selectedItemColor: Color(0xFF5F67EA),
-            unselectedItemColor: Colors.grey.withOpacity(0.6),
+            unselectedItemColor: Colors.grey.withOpacity(0.7),
             currentIndex: _currentIndex,
             onTap: (index)=> setCurrentIndex(index),
             items: [
